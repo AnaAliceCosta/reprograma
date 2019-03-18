@@ -1,0 +1,46 @@
+/*Anatomia do CSS*/
+body {
+    background-color: rgba(179,130,186,36%);
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+
+}
+.cabecalho{
+    text-align: center;
+}
+.cabecalho__titulo{
+    color: #5d1277;
+    font-weight: bold;
+}
+.container__conteudo, .container__ilustracao{
+    display: inline-block;
+    width: 390px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+.ilustracao__gif{
+    width: 400px;
+}
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+.conteudo__btn{
+    background-color: #5d1277;
+    padding: 20px;
+    border: 1px;
+    color:#ffffff;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-transform: uppercase;
+}
+.conteudo__btn--transparente{
+    background-color: transparent;
+    border: 1px solid #5d1277;
+    color: #5d1277;
+    
+}
+.conteudo__subtitulo{
+    font-size: 16px;
+    
+}
