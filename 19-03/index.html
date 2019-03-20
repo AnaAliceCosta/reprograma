@@ -6,33 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mulheres em Tech</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+    <nav class="navegacao">
+        <ul class="navegacao__menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">contato</a></li>
+        </ul>
+        <img src="img/logo.png" alt="logomarca Mulheres in tech" class="navegacao__logo">
+
+    </nav>
     <main class="container">
 
-        <nav class="navegacao">
-            <ul class="navegacao__menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">sobre</a></li>
-                <li><a href="#">contato</a></li>
-            </ul>
-            <img src="img/logo.png" alt="logomarca Mulheres in tech" class="navegacao__logo">
 
-        </nav>
         <section class="conteudo">
             <div class="conteudo__container">
                 <aside class="conteudo__autora">
                     <img src="img/ana.png" alt="Foto da Ana Alice" class="conteudo__foto">
-                    <p><span>Ana Alice,</span> manicure e programadora</p>
+                    <p><span class="conteudo__nome negrito">Ana Alice,</span> manicure e programadora</p>
                 </aside>
                 <article class="conteudo__artigo">
                     <h3>Conheça mulheres da tecnologia</h3>
 
-                    <ol>
+                    <ol class="conteudo__lista">
                         <li>Ada Lovelace</li>
                         <li>Margareth Hamilton</li>
                         <li>Grace Happer</li>
@@ -45,6 +46,11 @@
             </div>
         </section>
     </main>
+    <footer class="rodape">
+        <img src="img/reprograma.png" alt="Logomarca do reprograma" class="rodape__imagem">
+        <p>Ana Alice©</p>
+    </footer>
+
 </body>
 
 </html>
