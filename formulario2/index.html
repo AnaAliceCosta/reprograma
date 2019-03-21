@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Segundo Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="principal">
+        <form>
+
+            <div class="grupo">
+                <label class="grupo__descricao" for="nome">
+                    Texto
+                </label>
+                <input type="text" name="nome">
+    
+            </div>
+            <div class="grupo">
+                <label class="grupo__descricao" for="senha">Senha</label>
+                <input type="password" name="senha">
+            </div>
+            <div class="grupo">
+                <label class="grupo__descricao" for="confirmacao">Confirme que voce é uma mulher cheia de talentos</label>
+                <input type="checkbox"><span>confirmo que sou mesmo</span>
+            </div>
+            <div class="grupo">
+                <label class="grupo__descricao" for="opcao">Escolha uma opção:</label>
+                <input type="radio" name="opcao"><span>Super força</span>
+                <input type="radio" name="opcao"><span>Ser Invisivel</span>
+                <input type="radio" name="opcao"><span>Ler mentes</span>
+                <input type="radio" name="opcao"><span>Super velocidade</span>
+            </div>
+            <div class="grupo">
+                <label class="grupo__descricao" for="topico">Selecione um tópico</label>
+                <select>
+                    <option>Deixar meu site mais bonito</option>
+                    <option>Acabar com o patriarcado</option>
+                    <option>Fazer a revolução feminista</option>
+                </select>
+            </div>
+            <div class="grupo">
+                <label class="grupo__descricao" for="valor">Escolha um valor</label>
+                <input type="number">
+            </div>
+            <div class="grupo">
+                <label class="grupo__descricao" for="comentario">Comentário</label>
+                <textarea rows="5"> </textarea>
+            </div>
+            <button>Reset</button>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+body{  
+}
+.principal {
+    margin:0 auto;
+    width: 400px;
+    display: flex;
+
+}
+.grupo{
+    padding:12px;
+    display: flex;
+    justify-content: space-between;
+}
+.grupo__descricao{
+
+}
