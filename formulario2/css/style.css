@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.grupo__descricao{
-
+.grupo > label{
+    width:45%;
+    text-align: right;
 }
