@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+}
+
+th, td, tr {
+    border-right: 1px solid #CCC;
+}
+
+tr td:first-child {
+    text-align: left;
+}
+
+.planos {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-bottom: 1px solid #CCC;
+}
+
+thead :first-child {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: #dfdfdf;
+}
+
+.btn_comprar {
+    border: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5%;
+    background: #FF5406;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.linhas-botoes>th {
+    padding: 5px 0;
+}
+
+.linhas-botoes {
+    border-top: none;
+    border-bottom: none;
+}
+
+.planos__autonomo {
+    background-color: #009E2C;
+    color: white;
+}
+
+.planos__empresa {
+    background-color: #0078c1;
+    color: white;
+}
+
+.planos__checked {
+    text-align: center;
+}
+
+.autonomo {
+    color: blue;
+}
+
+.empresa {
+    color: green;
+}
