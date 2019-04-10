@@ -1,5 +1,10 @@
 body{
     text-align: center;
-    background: white;
 
+}
+.background-red{
+    background:red;
+}
+.background-white{
+    background:white;
 }
