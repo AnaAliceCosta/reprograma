@@ -1,6 +1,6 @@
 function calcular() {
-    let nota1 = parseInt(document.getElementById('nota1').value);
-    let nota2 = parseInt(document.getElementById('nota2').value);
+    let nota1 = parseFloat(document.getElementById('nota1').value);
+    let nota2 = parseFloat(document.getElementById('nota2').value);
     let media = (nota1 + nota2) / 2;
     let resposta;
     if(media == 10){
@@ -10,6 +10,6 @@ function calcular() {
     }else{
         resposta = 'reprovado';
     }
-    alert(resposta);
+    alert(media );
     
 }
