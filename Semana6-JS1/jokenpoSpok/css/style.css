@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#FF0000;
+}
+.cabecalho{
+    width:100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: #FF0000;
+    text-align: center;
+}
+
+.titulo{
+    font-weight: bolder;
+    color:#fff114;
+    font-size:3em;
+    text-shadow: 3px 3px #000000;
+    
+}
+
+.container{
+    margin-right: 2vw;
+    margin-left:2vw;
+    width:98vw;
+    
+}
+.clicavel{
+    margin: 0 auto;
+    width:70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.clicavel__img{
+    width: 10vw;
+    padding:.5vw;
+}
+.resultado{
+    border-style: solid;
+    width:70%;
+    margin:0 auto;
+    height:30vh;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+
+}
+.escolha-usuario .escolha-computador{
+    width:30%;
+}
+#vencedor{
+    text-align: center;
+    color:#fff114;
+    font-size:2em;
+    text-shadow: 3px 3px #000000;
+}

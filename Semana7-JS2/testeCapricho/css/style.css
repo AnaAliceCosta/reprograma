@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Roboto',sans-serif;
+}
+.cabecalho{
+    color:#FFF;
+    background-color:#ff71bf;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.centralizada{
+    margin:0 auto;
+    width:90vw;
+    display:flex;
+    align-content: space-between;
+
+}
+.teste__imagem{
+    height: 200px;
+}
+.teste__perguntas{
+    margin-left:20px;
+}
+#pergunta{
+    color:#fe90c4;
+    font-weight:bolder;
+}
+#resposta{
+    margin-top:40px;
+    color:#000;
+}
+.rodape{
+    position: fixed;
+    bottom:2vh;
+    text-align: center;
+    width:100%;
+    color:#FFF;
+    background-color:#ff71bf;
+}
