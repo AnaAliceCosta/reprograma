@@ -1,0 +1,10 @@
+.clientes{
+    width:100vw;
+    background-color: $color-bg-secundary;
+    text-align: center;
+    
+    .titulo{
+        font-size: $font-size-title;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,64 @@
+nav.navbar .botaox {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #505050;
+}
+
+.hedder {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.banner {
+  background-image: url(../images/bg3.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+.banner .parallax-image {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.banner .parallax-image img {
+  height: 75%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.banner .texto {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 50%;
+  color: #ffffff;
+}
+.banner .texto .titulo {
+  font-size: 24px;
+}
+.banner .texto .conteudo {
+  font-size: 16px;
+}
+
+.clientes {
+  width: 100vw;
+  background-color: #505050;
+  text-align: center;
+}
+.clientes .titulo {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

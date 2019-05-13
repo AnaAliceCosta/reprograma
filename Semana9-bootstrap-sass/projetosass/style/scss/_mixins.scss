@@ -1,0 +1,12 @@
+@mixin flex($justify){
+    display: flex;
+    justify-content: $justify;
+
+}
+
+@mixin button($cor-texto,$cor-fundo){
+    padding:10px 20px;
+    color: $cor-texto;
+    background-color: $cor-fundo;
+
+}

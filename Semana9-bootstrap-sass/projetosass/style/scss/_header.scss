@@ -1,0 +1,20 @@
+nav.navbar {
+    .botaox {
+        @include button($color-secundary,$color-bg-secundary)
+    }
+}
+
+.hedder {
+    @include flex(space-between);
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width:100%;
+}
+
+ul {
+    @include flex(space-between);
+    width:30%;
+}

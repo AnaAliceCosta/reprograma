@@ -1,0 +1,29 @@
+.banner{
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    height:80vh;
+    .parallax-image {
+        height:100%;
+        position:relative;
+        overflow: hidden;
+        img{
+            height:75%;
+            position: absolute;
+            top:50%;
+            left: 10%;
+        }
+    }
+    .texto{
+        position: absolute;
+        top:40%;
+        left: 40%;
+        width:50%;
+        color:$color-bg-primary;
+        .titulo{
+            font-size: $font-size-title;
+        }
+        .conteudo{
+            font-size: $font-size-text;
+        }
+    }
+}
