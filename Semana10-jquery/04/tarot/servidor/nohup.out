@@ -1,0 +1,9 @@
+
+> ReprogramaTarot@1.0.0 start /home/ana/Reprograma/Semana10-jquery/04/tarot/servidor
+> node server
+
+consign v0.1.6 Initialized in app
++ ./api/cartas.js
++ ./routes/cartas.js
+Banco data.db pronto para uso
+Servidor iniciado
