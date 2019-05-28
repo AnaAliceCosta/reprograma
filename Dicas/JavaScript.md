@@ -7,7 +7,7 @@
 ```
 ## Chamar o JavaScript em um arquivo externo
 ```html
- <script> src="script.js"</script>
+ <script src="script.js"></script>
 ```
 
 ## Comentando:
@@ -34,24 +34,48 @@ aceita números inteiros (sem pontos)
 ## strings (textos)
 devem ser declaradas utilizando aspas (simples ou duplas)
 ```js
-let variavel = "valor"
+let variavel = "valor";
 ```
 ## float 
 aceita numeros com pontos flutuantes 
 ```js
-let variavel = 1.61803399
+let variavel = 1.61803399;
 ```
 ## Resultado em variaveis
 uma variavel pode receber o retorno de uma operação.
 ```js
-let soma = 3+5
+let soma = 3+5;
 ```
 ## Verdadeiro ou Falso
 uma variavel pode receber um valor verdadeiro ou falso
 
 ```js
-let a = true //verdadeiro
+let a = true;;//verdadeiro
 
-let b = false //falso
+let b = false; //falso
 ```
+## Objetos
+Contém os endereços que se referem a objetos. Você pode atribuir qualquer tipo de referência (string, int, float...)
 
+```js
+let pessoa = {
+    Nome: "Ana"
+    Idade:25
+    altura: 1.72
+    };
+```
+### Próximo nível: Listas (array)
+## Definição:
+No JavaScript você pode criar lista de conteudo, esta lista pode conter qualquer tipo de variável (é comum utilizarmos listas com o mesmo tipo para todos os elementos)
+```js
+var frutas = ["Pera","Uva","Maçã"];
+```
+## Metodos da lista
+concat() - Junta mais de uma lista em uma só 
+```js
+let frutas1 = ["Pera", "Uva","Maçã"];
+let frutas2 = ["Jaca","Abacate"];
+let frutas3 = ["Abacaxi", "limao"];
+let todasFrutas = frutas1.concat(frutas2,frutas3)
+console.log(todasFrutas);
+```
