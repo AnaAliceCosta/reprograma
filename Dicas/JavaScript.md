@@ -1,5 +1,5 @@
 # Folha de dicas Javascript
-##Como incluir JavaScript em uma pagina HTML
+## Como incluir JavaScript em uma pagina HTML
 ```html
 <script type="text/javascript">
     //seu codigo aqui
@@ -21,10 +21,11 @@ comentário de bloco /*coloque seu comentario aqui*/
 ```
 # Variaveis em JavaScript
 ## var,let,const
+
 var - antigamente a forma mais utilizada, ela pode ser sobrescrita. Variaveis definidas como var tem scopo global (mesmo que definida dentro de uma função).
-------------------------------------------------------------------------------------------------------
+
 const - Nao pode ser sobrescrita, esta variável respeita o escopo, só pode ser utilizada após declarada ou dentro da função em que foi declarada.
-------------------------------------------------------------------------------------------------------
+
 let - parecida com o const, porém, seu valor pode ser sobrescrito mas esta variável nao pode ser re-declarada.
 
 # tipos de dado
