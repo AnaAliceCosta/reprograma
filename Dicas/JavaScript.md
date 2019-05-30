@@ -78,4 +78,3 @@ let frutas2 = ["Jaca","Abacate"];
 let frutas3 = ["Abacaxi", "limao"];
 let todasFrutas = frutas1.concat(frutas2,frutas3)
 console.log(todasFrutas);
-```
