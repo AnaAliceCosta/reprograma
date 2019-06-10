@@ -8,7 +8,7 @@ class Biblioteca{
 
 
     criaTabela(listaLivros,titulo){
-        return (`<table>
+        return (`<table class='table'>
             ${this.criaCabecalho(titulo)}
             ${this.criaCorpo(listaLivros)}
 
@@ -17,7 +17,7 @@ class Biblioteca{
     }
     criaCabecalho(titulo){
         return (
-`       <thead>
+`       <thead class="thead-dark">
             <tr>
                 <th>
                    ${titulo}
@@ -40,7 +40,7 @@ class Biblioteca{
             </tbody>`
             )
 
-        })
+        }).join("")
     }
     ordenaPorAutor(){
        return this.criaTabela(this.livros.map(livro=>livro.autor).sort(),'Autor')
