@@ -1,6 +1,10 @@
 import React from 'react'
+import './chat.css'
+import PetCardList from '../componentes/PetCardList/PetCardList'
 export default function Chat(props){
     return(
-        <p>Você está pagina de Chat</p>
+        <div className='pagina'>
+            <PetCardList/>
+        </div>
     )
 }

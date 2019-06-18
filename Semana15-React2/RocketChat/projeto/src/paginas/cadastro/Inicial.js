@@ -1,5 +1,6 @@
 import React from 'react'
 import '../cadastro.css'
+import BotaoCadastro from '../../componentes/formulario/BotaoCadastro'
 import Asronauta from '../../imagens/astronaut.png'
 import Globo from '../../imagens/globe.png'
 
@@ -8,15 +9,24 @@ export default function Inicial(props){
             <div className="pagina">
                 <h1>Escolha qual tipo de cadsatro:</h1>
                 <div className="pagina__botao">
-                    <button className='botao-icone'>
-                        <img src={Asronauta} alt='icone astronauta' className="botao-imagem"/>
-                        <span>Pessoa Física</span>
-                    </button>
+                    <BotaoCadastro 
+                        srcImagem= {Asronauta}
+                        altImagem='icone Astronauta'
+                        titulo = 'Pessoa Física'
+                        valorImagem="PF"
+                        acaoBotao = {props.alteraConteudo}
+                        
+                    />
                     
-                    <button className='botao-icone'>
-                        <img src={Globo} alt='icone globo' className="botao-imagem"/>
-                        <span>Pessoa Jurídica</span>
-                    </button>
+
+                    <BotaoCadastro 
+                        srcImagem= {Globo}
+                        altImagem='icone Globo'
+                        titulo = 'Pessoa Jurídica'
+                        valorImagem="PJ"
+                        acaoBotao = {props.alteraConteudo}
+                    />
+                    
                 </div>
 
             </div>
