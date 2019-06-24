@@ -14,8 +14,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Esconde-Aparece</h1>
-          <button onClick={this.alteraExibicao}>{this.state.exibido ? "Esconder Detalhes" : "Mostrar Detalhes"}</button>
-          {this.state.exibido && <p>Maravilhosas. jogue como uma garota</p> }
+          <button onClick={this.alteraExibicao}>
+            {this.state.exibido ? "Esconder Detalhes" : "Mostrar Detalhes"}
+          </button>
+            {this.state.exibido && <p>Maravilhosas. jogue como uma garota</p> }
       </div>
     )
 
